@@ -79,7 +79,7 @@ section {
   gap: 0.2rem;
 }
 
-.contact-form input,
+.contact-form input ,
 .contact-form textarea {
   padding: 0.8rem;
 }
@@ -121,3 +121,9 @@ footer {
     justify-content: space-between;
   }
 }
+
+input[type="text"] {
+  width: 150px;
+  height: 25px;
+}
+
