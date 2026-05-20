@@ -1,5 +1,5 @@
 :root {
-  --primary: #D4AF37;
+  --primary: gold;
   --bg: #f4f4f4;
   --text: #222222;
   --white: #ffffff;
@@ -20,9 +20,8 @@ body {
 
 img {
   width: 100%;
-  display: block;
+ display: flex;
   border-radius: 1%;
-}
 
 header {
   background-color: var(--primary);
@@ -72,7 +71,7 @@ section {
   background-color: var(--white);
   padding: 1.5rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 8px rgba(212, 175, 55, 0.15);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .contact-form {
@@ -85,7 +84,6 @@ section {
 .contact-form input,
 .contact-form textarea {
   padding: 0.8rem;
-  border: 1px solid #d4af37;
 }
 
 .contact-form button {
@@ -116,6 +114,7 @@ footer {
   text-decoration: none;
 }
 
+
 @media (min-width: 768px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -127,15 +126,15 @@ footer {
   }
 }
 
+
 @media (min-width: 1024px) {
   .projects-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-.about-image {
+.about-image{
   width: 10rem;
   border-radius: 50%;
   margin: 1.5rem;
-  border: 3px solid #D4AF37;
 }
