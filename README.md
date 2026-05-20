@@ -1,4 +1,6 @@
 # Personal Portfolio Website
+Name:IBRAHIM ABDALLA SHARIF
+REGSTRATION NUMBER NUMBER: 24BCS006
 
 This project is a responsive personal portfolio website created using HTML5 and CSS
 
