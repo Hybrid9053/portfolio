@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This project is a responsive personal portfolio website created using HTML5 and CSS3.
+This project is a responsive personal portfolio website created using HTML5 and CSS
 
 ## Features
 
